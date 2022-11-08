@@ -1,0 +1,22 @@
+.logo{
+    margin-right: 20px;
+    height: 40px;
+}
+.text-title{
+   color: orangered;
+}
+@media only screen and (max-width: 600px) {
+    .input-wrap {
+    width: 30%;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .input-wrap {
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .input-wrap {
+        width: 50%;
+}
+}

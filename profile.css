@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    width: 100%; 
+}
+html, nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px; 
+    margin-bottom: 10px;
+}
+.nav1{
+    padding-left: 50px;
+}
+.nav2{
+    /* background-color: blueviolet; */
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconSearch{
+    width: 500px;
+    display: flex;
+    position: relative;
+    /* background-color: white; */
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    right: 3px;
+}
+.filter{
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}
+.nav3{
+    /* background-color: bisque; */
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav3 {
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.container-fluid{
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 90vh;
+    background-color: gainsboro;
+    padding: 0;
+}
+.continerSide{
+    padding-top: 50px;
+    background-color: white;
+    width: 30vw;
+    padding-left: 70px;
+}
+.side1{
+    display: flex;
+   
+}
+.side2-1{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.side2-2{
+    display: flex;
+    padding-bottom: 15px;
+}
+.side2-3{
+    display: flex;
+   
+}
+.myInfo{
+    margin:50px;
+    padding: 30px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 5px;
+    width: 70vw;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.pict{
+   border: 1px black;
+}

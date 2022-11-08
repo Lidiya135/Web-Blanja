@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    width: 100%;
+   
+}
+html, nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 10px; 
+}
+.nav1{
+    padding-left: 50px;
+}
+.nav2{
+    /* background-color: blueviolet; */
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconSearch{
+    width: 500px;
+    display: flex;
+    position: relative;
+    /* background-color: white; */
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    right: 3px;
+}
+.filter{
+    border: 1px grey solid;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}
+.nav3{
+    /* background-color: bisque; */
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav3 {
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.bag{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    
+}
+.form-check{
+    font-weight: 500;
+    border: 1px grey solid;
+    width: 720px;
+}
+.shopLabel{
+    display: block;
+    /* background-color: aqua; */
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.asideBag{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 1px gray solid;
+    margin-right: 50px;
+    box-shadow: 2px 2px 5px;
+}
+.amounth{
+    margin-top: 10px;
+    background-color: azure; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .input-wrap {
+    width: 80%;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .input-wrap {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .input-wrap {
+        width: 30%;
+}
+} */

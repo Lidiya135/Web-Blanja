@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+    width: 100%;
+   
+}
+html, nav{
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    
+}
+.navbar-brand{
+    color: orangered;
+    padding-left: 5px;
+    font-size: 30px;
+    /* background-color: aqua; */
+    font-weight: 500;
+
+}
+.nav1{
+    padding-left: 50px;
+}
+.nav2{
+    /* background-color: blueviolet; */
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconSearch{
+    width: 500px;
+    display: flex;
+    position: relative;
+    /* background-color: white; */
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    right: 3px;
+}
+.filter{
+    border: 1px grey solid;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}
+.nav3{
+    /* background-color: bisque; */
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding-right: 50px;
+}
+
+.bag{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.form-check{
+    font-weight: 500;
+    border: 1px grey solid;
+    width: 720px;
+}
+.shopLabel{
+    display: block;
+    /* background-color: aqua; */
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.asideBag{
+    width: 400px;
+    height: 179px;
+    padding: 20px;
+    border: 1px gray solid;
+
+}
+.amounth{
+    margin-top: 10px;
+    background-color: azure; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
